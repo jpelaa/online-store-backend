@@ -4,7 +4,7 @@ const productSchema = new mongoose.Schema({
   title: String,
   price: Number,
   currency: String,
-  color: String,
+  color: String, //Single || Two || Multi
   gender: String, // Men || Women || Adult || Kid
   ageGroup: String,
   groupCode: String,
